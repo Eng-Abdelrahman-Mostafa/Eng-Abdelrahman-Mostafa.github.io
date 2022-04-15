@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/04ca326e53.js" crossorigin="anonymous"></script>
+    <!-- حط ملف الcss بتاعك تحت الstyle.min  -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <!-- غير اسم الصفحة اللي في الtitle  -->
+    <title>الملف الشخصي</title>
+
+</head>
+<body>
+    <header>
+        <!-- مكان الهيدر "سيبه فاضي دلوقتي" -->
+    </header>
+    <main>
+      <div class="main">
+        <div class="up">
+          <span style="color: var(--bold-text);">الرئيسية/</span><span style="color: var(--color-main);">حسابي</span>
+        </div>
+        <div class="rightsec">
+          <form method="post">
+            <div class="profile">
+              <span class="set">تعديل البروفايل</span>
+              <hr>
+              <div>
+                <input type="text" value="عبدالرحمن ياسر حامد" name="username">
+                <label ><i class="fa-solid fa-user fa-solid1"></i></label>
+              </div>
+              <div>
+                <input type="email" value="abdulrahmanyasser@gmail.com" name="email">
+                <label><i class="fa-solid fa-envelope fa-solid1"></i></label>
+              </div>
+              <div>
+                <input type="phone" value="01092219428" >
+                <label><i class="fa-solid fa-phone fa-solid1"></i></label>
+              </div>
+              </div>
+            <div class="profile">
+              <span class="set">تعديل العنوان وبيانات التواصل</span>
+              <hr>
+              <div>
+                <input type="text" value="٥ شارع مصطفى محمود-القاهرة" name="adress">
+                <label><i class="fa-solid fa-map fa-solid1"></i></label>
+                <input type="tel" value="01092219428" name="tel">
+                <label><i class="fa-solid fa-phone fa-solid1"></i></label>
+              </div>
+            </div>
+            <div class="profile">
+              <span class="set">تعديل بيانات الدفع</span>
+              <hr>
+              <input id="ccn" type="tel" name="card" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" value="5239 4962 3364 7470">
+              <label><i class="fa-solid fa-credit-card fa-solid1"></i></label>
+            </div>
+            <div class="profile">
+              <span class="set">تعديل كلمة المرور</span>
+              <hr>
+              <input type="password" value="123456789qweasd" name="passowrd">
+              <label><i class="fa-solid fa-key fa-solid1"></i></label>
+              <input type="password" name="password" placeholder="كلمة السر الجديدة">
+              <label for=""><i class="fa-solid fa-lock-open fa-solid1"></i></label>
+            </div>
+              <button type="submit" class="btn1 profile">حفظ التعديلات</button>
+          </form>
+        </div>
+        <div class="leftsec">
+          <div class="conter">
+            <div class="card">
+              <div class="card-img">
+                <img src="img/Layer bg.png"alt="">
+              </div>
+              <div class="profile-img">
+                <img src="/img/Customer.jpeg" alt="" width="270px">
+              </div>
+              <div class="card-content">
+                <p class="uname">عبدالرحمن  ياسر حامد</p>
+                <p class="userid">abdulrahmanyasser12</p>
+                <div class="balance">
+                  <span id="bc3"><i class="fa-solid fa-circle-info "></i></span>
+                  <span id="bc1">الرصيد الحالي</span>
+                  <span id="bc2">
+                    <span id="bcnum">٣٦٠٤	</span>
+                    <span id="egp">ج.م</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <!-- مكان الفوتر "سيبه فاضي دلوقتي" -->
+    </footer>
+</body>
+</html>
