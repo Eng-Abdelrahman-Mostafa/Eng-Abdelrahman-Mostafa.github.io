@@ -1,4 +1,4 @@
-<!--
+ <!--
 
 1.الصفحة دي مثال على الصفحات هتاخدها كوبي و هتغير في الmain و هتربط ملف الcss يتاعك و هتغير الtitle حسب اسم الصفحة
 2. الالوان عبارة عن متغيرات في ملف الcss استخدم المتغيرات اللي في ال style.min زي ما هي
@@ -33,16 +33,16 @@
                 <div class="topic-text"style="text-align:right;margin-bottom: 1rem; margin-top: 3rem;">تواصل معانا </div>
                 <p style="text-align:right; font-size:1rem;margin-bottom: 1rem;">تقدر دلوقتي ترسلنا اقتراح او شكوه عن طريق البريد الالكتروني وهيتم الرد علي رسالتك باسرع ما يمكن</p>
 
-              <form action="#">
+              <form action="#"method="POST"name="form1">
                 <div class="input-box">
-                  <input type="text" placeholder="  ادخل اسمك بالكامل (باللغه العربيه)"required dir="rtl">
+                  <input id="u_name" type="text" placeholder="  ادخل اسمك بالكامل (باللغه العربيه)"required dir="rtl"name="user">
                 </div>
                 <div class="input-box">
-                  <input type="text" placeholder="ادخل بريدك الالكتروني "required dir="rtl">
+                  <input id="u_mail" type="text" placeholder="ادخل بريدك الالكتروني "required dir="rtl"name="mail">
                 </div>
         
                 <div class="input-box">
-                  <input type="text" placeholder="اكتب رسالتك"required dir="rtl">
+                  <input id="u_pass" type="text" placeholder="اكتب رسالتك"required dir="rtl"namr="mass">
                 </div>
         
         
@@ -50,7 +50,7 @@
                 <div class="input-box message-box">
                   
                 </div>
-                <div class="button">
+                <div class="button"onclick="checkFun()">
                   <input type="button" value="ارسال الرساله"  >
                 </div>
               </form>
@@ -82,9 +82,39 @@
 
             </div>
           </div>
+
+ 
+
     </main>
     <footer>
         <!-- مكان الفوتر "سيبه فاضي دلوقتي" -->
     </footer>
+    <script>
+function checkFun(){
+   var u_name=document.getElementById("u_name").value;
+   var u_mail=document.getElementById("u_mail").value;
+   var u_pass=document.getElementById("u_pass").value;
+if ( u_name=="" &&  u_name=="" && u_pass== ""){
+  alert("ادخل اسمك بالكامل وادخل البريد الالكتروني وادخل الرساله")
+}
+else if( u_name==""){
+  alert("ادخل اسمك بالكامل ");
+}
+else if( u_mail==""){
+  alert(" ادخل البريد الالكتروني");
+}
+else if(u_pass== ""){
+  alert("   ادخل الرساله  ");
+}
+else{
+alert("تم تسجيل الدخول بنجاح");
+location.reload();
+ 
+}
+
+}
+
+ </script>
+    
 </body>
 </html>
