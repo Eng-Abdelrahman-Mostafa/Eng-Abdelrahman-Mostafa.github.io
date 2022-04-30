@@ -1,0 +1,129 @@
+/*
+max-width: 767px
+max-width: 575px
+max-width: 470px
+*/
+@media (min-width: 992px) {
+   nav .navbar-collapse .nav-icon {
+      display: none;
+   }
+}
+@media (max-width: 1200px) {
+   header .parallax-slider .content {
+      padding: 7rem 20rem 7rem 0 !important;
+   }
+   .navbar-toggler {
+      position: absolute;
+      top: 20px;
+      left: 15px;
+   }
+   nav form {
+      width: 40% !important;
+   }
+   .navbar-light .navbar-nav .nav-link {
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 991px) {
+   .top-bar {
+      display: none;
+   }
+   .navbar .container-fluid {
+      padding: 0 0 20px;
+   }
+   .navbar ul {
+      padding: 20px 0 0;
+   }
+   .lol {
+      display: none;
+   }
+   nav .collapse .nav-icon {
+      display: block !important;
+   }
+   nav .collapse .nav-icon {
+      opacity: 1;
+   }
+
+   nav form {
+      width: 100% !important;
+   }
+
+   .offer h2,
+   .news h2 {
+      font-size: 24px;
+   }
+
+   .save .right .counter {
+      margin-bottom: 30px;
+   }
+
+   footer .row > div {
+      margin-bottom: 30px;
+   }
+}
+
+@media (max-width: 768px) {
+   header .parallax-slider .content {
+      padding: 2rem 5rem 2rem 0 !important;
+   }
+   header .parallax-slider .swiper-nav-ctrl.next-ctrl {
+      left: 0px;
+   }
+
+   header .parallax-slider .swiper-nav-ctrl.prev-ctrl {
+      right: 0px;
+   }
+   header .parallax-slider .content .offer {
+      font-size: 16px;
+   }
+   header .parallax-slider .content .title {
+      font-size: 20px;
+   }
+   header .parallax-slider .content .start {
+      font-size: 16px;
+   }
+   header .parallax-slider .content .description {
+      font-size: 16px;
+   }
+
+   .categories .swiper-button-next,
+   .offer .swiper-button-next {
+      left: 0px;
+   }
+   .categories .swiper-button-prev,
+   .offer .swiper-button-prev {
+      right: 0px;
+   }
+   .offer .heading .left {
+      text-align: right;
+   }
+
+   .contact p {
+      margin-bottom: 30px;
+   }
+}
+@media (max-width: 575px) {
+   .offer .heading .right {
+      flex-direction: column;
+   }
+   .offer .heading .right h2 {
+      margin-bottom: 30px;
+   }
+   .offer .heading .right .counter {
+      margin-bottom: 30px;
+   }
+   .offer .heading .left {
+      text-align: center !important;
+   }
+   .contact .icon i {
+      font-size: 32px !important;
+   }
+   .contact .content h3 {
+      font-size: 28px !important;
+   }
+   .contact .content p {
+      font-size: 16px !important;
+      width: 100% !important;
+   }
+}
