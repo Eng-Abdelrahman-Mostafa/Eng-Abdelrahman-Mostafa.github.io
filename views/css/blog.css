@@ -62,7 +62,7 @@ a:link{
     font-size: 1.2em;
     font-weight: 300;
     color: #717171;
-    text-align: center;
+
 
 }
 
@@ -203,14 +203,14 @@ a:link{
 .categories p {
     font-size: 14px;
     padding-left: 61px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     color: var(--bold-text);
 }
 .categories h4 {
     font-size: 17px;
     color: var(--light-text);
     padding-left: 58px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 .title-2  {
     color: var(--color-main);
@@ -252,7 +252,6 @@ a:link{
     margin-bottom:5px ;
     position: relative;
     top: 45px ;
-    position: relative;
     right: 10px;
     border-radius: 5px;
     border-color:#71717100 ;
