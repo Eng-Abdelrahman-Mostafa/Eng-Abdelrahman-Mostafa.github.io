@@ -1,0 +1,270 @@
+
+
+body{
+    background: var(--bg-body);
+    direction: rtl
+}
+img{
+    object-fit:cover;
+    object-position:center;
+}
+a{
+    text-decoration: none;
+}
+.body {
+    width: 1140px;
+    background-color: var(--bg-body);
+    height: auto;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.contenar {
+    width: 100%;
+}
+.heading {
+    padding-right: 70px;
+    margin-top: 20px;
+}
+.main{
+    color: var(--bold-text);
+    font-size: 1.4em;
+    font-weight: bold;
+
+}
+.heading p :hover{
+    color: var(--color-main);
+}
+.contenar .heading .address-hint {
+    color: var(--color-main);
+}
+
+
+.mod {
+    color: #e74c3c;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.latest-blogs  {
+    margin-top: 30px;
+    text-align: center;
+}
+.centar {
+    text-align: center;
+    font-weight: bold;
+
+}
+.under-manshit {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #717171;
+
+}
+.prodacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.right {
+    width: 70%;
+    margin-right: 7%;
+}
+.left {
+    margin-left: 5%;
+
+}
+.right{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    background-color: #71717122;
+    border-radius: 30px;
+}
+
+
+.blog-pic {
+    width: 100%;
+    border-radius: 30px 30px 0 0 ;
+}
+.blog-manshit {
+    width:90%;
+    color: var(--bold-text);
+}
+.blog-dis {
+    width:90%;
+    color: var(--light-text);
+}
+.admin-color {
+    color: #e74c3c;
+}
+
+
+
+
+.categories {
+
+    background-color: #71717122;
+    border-radius: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    overflow: auto;
+    padding-bottom: 12px;
+    width: 300px;
+    height: 444px;
+    margin-top: -25px;
+    direction: rtl;
+}
+
+.for-scroll {
+    height: 445px;
+    top: 25px;
+    right: 92px;
+    background-color: #efeff1;
+    padding-top: 3rem;
+    border-radius: 25px;
+}
+
+.categories::-webkit-scrollbar {
+    width: 5px;
+}
+
+.categories::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 5px;
+    margin-block: 70px;
+    direction: rtl;
+    margin: 30px;
+
+
+
+}
+
+.categories::-webkit-scrollbar-thumb {
+    background-color: var(--color-main);
+    border-radius: 5px;
+}
+
+.categories p {
+    transition: 0.3s;
+}
+.categories p:hover {
+    color: #ffb5ad;
+    padding-left: 5px;
+}
+
+.categories p {
+    font-size: 14px;
+    padding-left: 61px;
+    padding-bottom: 0;
+    color: var(--bold-text);
+}
+.categories h4 {
+    font-size: 17px;
+    color: var(--light-text);
+    padding-left: 58px;
+    padding-bottom: 0;
+}
+.title-2  {
+    color: var(--color-main);
+}
+
+.more-box {
+    display: inline;
+    border: 1px solid var(--bold-text);
+    width: 60px;
+    height: 40px;
+    background-color: #7171710b;
+    color:#e74c3c;
+    margin-bottom: 50px;
+    position: relative;
+    right: 280px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.search {
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    border: var(--color-main);
+    background-color:#71717133 ;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+
+}
+.search-d  {
+    background-color: var(--bg-body);
+}
+
+
+.search-button {
+    width: 36px;
+    height: 39px;
+    background-color:#71717100;
+    color: #e74c3c;
+    margin-bottom:5px ;
+    position: relative;
+    top: 45px ;
+    right: 10px;
+    border-radius: 15px;
+    border-color:#71717100 ;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+
+.hover-button{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0,0,0,0.6);
+    transition:all ease .4s;
+    opacity: 0;
+    border-radius: 17px;
+}
+
+.button1{
+    background-color: var(--color-main);
+    width: 200px;
+    height: 50px;
+    border-radius: 17px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 500;
+    color: var(--bg-body);
+    padding-right: 25px;
+    padding-bottom: 60px;
+    border: none;
+    text-decoration: none;
+}
+
+
+.blog:hover .hover-button{
+    opacity : 1;
+
+}
+.page-link{
+    color: var(--color-main);
+}
+
