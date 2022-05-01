@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-    --color-main: #197bf5;
+    --color-main: #e3bf9f;
     --color-secondary: #041e2d;
     --bg-body: #efeff1;
     --bold-text: #606060;
@@ -16,7 +16,4 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-body{
-    background: var(--bg-body);
 }

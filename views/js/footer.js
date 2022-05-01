@@ -1,4 +1,4 @@
-let footer= document.querySelector("footer");
+let footer= document.querySelector(".footer");
 
 if(theme_key == 1){
     footer.innerHTML= "<footer class=\"\">\n" +

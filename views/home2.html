@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css"
+            integrity="sha256-DBYdrj7BxKM3slMeqBVWX2otx7x4eqoHRJCsSDJ0Nxw="
+            crossorigin="anonymous"
+    />
+    <!-- fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600&display=swap"
+            rel="stylesheet"
+    />
+
+    <!-- css assessts -->
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css" /> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/home2.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+<!-- start [1] navbar -->
+<div class="parent">
+    <div class="top-bar">
+        <div class="container-fluid">
+            <div class="box">
+                <div class="right-box">
+                    <div class="item">
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-brands fa-twitter-square"></i>
+                    </div>
+                    <div class="item">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="left-box">
+                    <div class="item">
+                        <span>20123456789+</span>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="item">
+                        <span>example@gmail.com</span>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light nav1">
+        <div class="container-fluid nav-mar">
+            <a class="navbar-brand" href="#"
+            ><img src="img/logo2.png" alt="" />
+                <span>دكان</span></a
+            >
+            <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+            >
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                        >جميع الفئات</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> الموضة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">السوبر ماركت</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">العطور</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">موبايلات</a>
+                    </li>
+                </ul>
+                <div class="nav-icon">
+                     <span class="shopping"
+                     ><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                     </span>
+                    <a href="#">
+                        حسابي
+                        <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <form class="d-flex">
+                <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="ابحث هنا"
+                        aria-label="Search"
+                />
+                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+            </form>
+
+            <div class="nav-icon lol">
+                  <span class="shopping"
+                  ><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  </span>
+                <a href="#">
+                    حسابي
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+</div>
+
+<!-- start header[2] -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 right">
+                <div class="swiper-container parallax-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img-container two"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-container two"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-container two"></div>
+                        </div>
+                    </div>
+                    <!-- slider controls -->
+
+                    <!-- pagination -->
+                    <div class="swiper-pagination pagination-ctrl"></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="info">
+                    <a href="#"
+                    ><i class="fa-solid fa-mobile-screen-button"></i>فئة
+                        الهواتف</a
+                    >
+                </div>
+                <div class="info">
+                    <a href="#"
+                    ><i class="fa-solid fa-laptop"></i>فئة اللابتوب</a
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- start categories[3] -->
+
+<section class="categories">
+    <div class="container">
+        <h2>الفئات</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <h3>موضة</h3>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <h3>موضة</h3>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <h3>موضة</h3>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <h3>موضة</h3>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <h3>موضة</h3>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <h3>موضة</h3>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <h3>موضة</h3>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <h3>موضة</h3>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <h3>موضة</h3>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <h3>موضة</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-button-next">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- start offer[4] -->
+
+<section class="offer section-padding">
+    <div class="container">
+        <div class="heading">
+            <h2>وصل جديد</h2>
+            <p>
+                منتجات وصلت جديد لمخازن متجر دكان بخصومات حصرية جدا ولفترة
+                محدودة
+            </p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="first-ele">
+                            <div class="image">
+                                <img src="img/tripod.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <div class="price">
+                                    <span> 4030 </span>
+                                    <span> ج.م </span>
+                                </div>
+                                <p>
+                                    حذاء رياضي عصري متاح بجميع الالوان للرجال -
+                                    8741
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="first-ele">
+                            <div class="image">
+                                <img src="img/tripod.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <div class="price">
+                                    <span> 4030 </span>
+                                    <span> ج.م </span>
+                                </div>
+                                <p>
+                                    حذاء رياضي عصري متاح بجميع الالوان للرجال -
+                                    8741
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="first-ele">
+                            <div class="image">
+                                <img src="img/tripod.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <div class="price">
+                                    <span> 4030 </span>
+                                    <span> ج.م </span>
+                                </div>
+                                <p>
+                                    حذاء رياضي عصري متاح بجميع الالوان للرجال -
+                                    8741
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="first-ele">
+                            <div class="image">
+                                <img src="img/tripod.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <div class="price">
+                                    <span> 4030 </span>
+                                    <span> ج.م </span>
+                                </div>
+                                <p>
+                                    حذاء رياضي عصري متاح بجميع الالوان للرجال -
+                                    8741
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="first-ele">
+                            <div class="image">
+                                <img src="img/tripod.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <div class="price">
+                                    <span> 4030 </span>
+                                    <span> ج.م </span>
+                                </div>
+                                <p>
+                                    حذاء رياضي عصري متاح بجميع الالوان للرجال -
+                                    8741
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="first-ele">
+                            <div class="image">
+                                <img src="img/tripod.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <div class="price">
+                                    <span> 4030 </span>
+                                    <span> ج.م </span>
+                                </div>
+                                <p>
+                                    حذاء رياضي عصري متاح بجميع الالوان للرجال -
+                                    8741
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-button-next">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- start save[5] -->
+<!-- start news -->
+<section class="section-padding news">
+    <div class="container">
+        <div class="heading row">
+            <div class="col-md-6 col-lg-8">
+                <div class="right">
+                    <div class="icon">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <div class="content">
+                        <h2>عروض فلاش</h2>
+                        <a href="#"
+                        >مشاهدة كل العروض
+                            <span
+                            ><i class="fa-solid fa-arrow-left-long"></i></span
+                            ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="left">
+                    <div class="counter">
+                        <div class="item">
+                            <span>2</span>
+                            <span>يوم</span>
+                        </div>
+                        <div class="item">
+                            <span>13</span>
+                            <span>ساعات</span>
+                        </div>
+                        <div class="item">
+                            <span>27</span>
+                            <span>دقيقة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news-parent">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="first-ele">
+                                <div class="image">
+                                    <img src="img/clock.png" alt="" />
+                                </div>
+                                <div class="content">
+                                    <h3>سماعات وايرليس</h3>
+                                    <p>
+                                        <span>250</span>
+                                        <span>ج.م</span>
+                                        بدلا من 100
+                                    </p>
+                                    <div class="line">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="first-ele">
+                                <div class="image">
+                                    <img src="img/clock.png" alt="" />
+                                </div>
+                                <div class="content">
+                                    <h3>سماعات وايرليس</h3>
+                                    <p>
+                                        <span>250</span>
+                                        <span>ج.م</span>
+                                        بدلا من 100
+                                    </p>
+                                    <div class="line">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="first-ele">
+                                <div class="image">
+                                    <img src="img/clock.png" alt="" />
+                                </div>
+                                <div class="content">
+                                    <h3>سماعات وايرليس</h3>
+                                    <p>
+                                        <span>250</span>
+                                        <span>ج.م</span>
+                                        بدلا من 100
+                                    </p>
+                                    <div class="line">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="first-ele">
+                                <div class="image">
+                                    <img src="img/clock.png" alt="" />
+                                </div>
+                                <div class="content">
+                                    <h3>سماعات وايرليس</h3>
+                                    <p>
+                                        <span>250</span>
+                                        <span>ج.م</span>
+                                        بدلا من 100
+                                    </p>
+                                    <div class="line">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="first-ele">
+                                <div class="image">
+                                    <img src="img/clock.png" alt="" />
+                                </div>
+                                <div class="content">
+                                    <h3>سماعات وايرليس</h3>
+                                    <p>
+                                        <span>250</span>
+                                        <span>ج.م</span>
+                                        بدلا من 100
+                                    </p>
+                                    <div class="line">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="first-ele">
+                                <div class="image">
+                                    <img src="img/clock.png" alt="" />
+                                </div>
+                                <div class="content">
+                                    <h3>سماعات وايرليس</h3>
+                                    <p>
+                                        <span>250</span>
+                                        <span>ج.م</span>
+                                        بدلا من 100
+                                    </p>
+                                    <div class="line">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- start contact -->
+<section class="contact section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="info">
+                    <div class="icon">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <div class="content">
+                        <h3>تواصل معنا دلوقتي</h3>
+                        <p>
+                            تقدر دلوقتي ترسلنا اقتراح او شكوة عن طريق البريد
+                            الالكتروني وهيتم الرد عليك بأسرع وقت ممكن
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <form action="">
+                    <input
+                            type="text"
+                            placeholder="ادخل بريدك الالكتروني هنا"
+                    />
+                    <textarea placeholder="اكتب رسالتك....... "></textarea>
+                    <input type="submit" value="أرسل الرسالة" />
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- start footer[final] -->
+
+<footer class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="box">
+                    <div class="brand">
+                        <img src="img/logo2.png" alt="" />
+                        <span> دكان </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="box-two">
+                    <div class="icons">
+                        <span><i class="fa fa-facebook"></i></span>
+                        <span><i class="fa fa-youtube"></i></span>
+                        <span><i class="fa fa-instagram"></i></span>
+                        <span><i class="fa fa-twitter"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="box">
+                    <div class="contact-us">
+                        <div class="content">
+                            <p>تواصل على الخط الساخن</p>
+                            <p>20123456789+</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa fa-headphones-simple"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copy-right">
+    <p>حقوق الطبع والنشر © لعام 2022 محفوظة لموقع <span>دكان</span></p>
+</div>
+
+<!-- javascript assessts -->
+<script src="js/jquery-3.0.0.min.js"></script>
+
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://kit.fontawesome.com/f913381eb8.js"
+        crossorigin="anonymous"
+></script>
+<!-- <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"
+          integrity="sha256-4sETKhh3aSyi6NRiA+qunPaTawqSMDQca/xLWu27Hg4="
+          crossorigin="anonymous"
+          ></script> -->
+
+<!-- bootstrap  libs -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!--main-script-->
+<script src="js/home2.js"></script>
+</body>
+</html>
