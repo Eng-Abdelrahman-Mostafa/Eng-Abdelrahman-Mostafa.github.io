@@ -160,28 +160,21 @@ header .parallax-slider .img-container.two {
 
 
 footer {
-    border-top: 10px solid var(--bg-body);
-    padding: 60px 0;
+    padding: 40px 0;
+    border-top: 0.25rem solid var(--bg-body);
 }
 footer .brand {
     width: 100px;
     display: flex;
     font-size: 28px;
     font-weight: 700;
-    color: var(--light-text);
+    color: var(--color-main);
 }
-footer p {
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--light-text);
-    margin-top: 10px;
-}
-footer h3 {
-    font-size: 24px;
+.dokan{
+    color: var(--bold-text);
     font-weight: 700;
-    margin-bottom: 15px;
-    color: var(--light-text);
 }
+
 footer .icons {
     display: flex;
     margin-top: 20px;
@@ -197,18 +190,11 @@ footer .icons span {
 footer .box-two {
     padding: 0 15px;
 }
-footer .box-two li {
-    font-size: 16px;
-    color: var(--light-text);
-}
 
 footer .contact-us {
     display: flex;
-    margin-top: 30px;
 }
-footer .contact-us p {
-    margin-top: 0;
-}
+
 footer .contact-us p:last-child {
     color: var(--color-main);
 }
@@ -218,31 +204,15 @@ footer .contact-us i {
     margin-right: 15px;
 }
 
-footer .download {
-    display: flex;
-    background-color: #041E2DFF;
-    box-shadow: var(--shadow);
-    border-radius: 20px;
-    color: #fff;
-    margin-top: 20px;
-    width: fit-content;
-    padding: 5px 40px;
-}
-footer .download div:last-child {
-    margin-right: 15px;
-    font-size: 24px;
-    margin-top: 2px;
-}
-footer .download span {
-    text-align: center;
-    display: block;
-}
 .copy-right {
-    background-color: var(--color-main);
+    border: 5px solid var(--bg-body);
     padding: 20px;
 }
 .copy-right p {
-    color: var(--bg-body);
+    color: var(--light-text);
     text-align: center;
     font-size: 18px;
+}
+.copy-right p span {
+    color: var(--color-main);
 }

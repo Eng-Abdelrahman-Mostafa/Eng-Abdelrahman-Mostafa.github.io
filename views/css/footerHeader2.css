@@ -1,0 +1,231 @@
+.parent {
+    width: 100%;
+}
+.nav1{
+    padding-top: 1rem;
+
+}
+.nav-mar{
+    margin-bottom: 1rem;
+}
+.top-bar {
+    border-bottom: 2px solid var(--main-body);
+    color: #fff;
+    padding: 5px 15px;
+}
+.top-bar .box {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.top-bar .box .right-box,
+.top-bar .box .left-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-bar .box .right-box .item {
+    color: var(--font-light);
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.top-bar .box .left-box .item {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.top-bar .box .left-box .item i,
+.top-bar .box .left-box .item span {
+    margin-right: 10px;
+    color: var(--font-light) !important;
+    font-size: 14px;
+}
+.top-bar .box .left-box .item i {
+    color: var(--main-color) !important;
+}
+.top-bar .box .left-box .item i {
+    font-size: 14px;
+}
+
+nav {
+    border-bottom: 10px solid var(--main-body);
+
+    padding-bottom: 0 !important;
+}
+
+nav .collapse {
+    max-width: fit-content !important;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+    border: none;
+    outline: none;
+}
+.navbar-toggler i {
+    color: var(--main-color);
+    font-size: 28px;
+}
+.parent {
+    position: fixed;
+    z-index: 999999;
+    background-color: #fff;
+}
+.container-fluid {
+    flex-wrap: wrap !important;
+    /* flex-direction: row-reverse; */
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: var(--main-color);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--font-light);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--main-color);
+}
+.navbar-light .navbar-nav .nav-link {
+    margin-left: 20px;
+    font-size: 16px;
+}
+.navbar-brand,
+.navbar-brand:hover {
+    display: flex;
+}
+.navbar-brand img {
+    width: 80px;
+}
+
+.navbar-brand span {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--font-light);
+}
+nav form {
+    width: 30%;
+    margin-left: 30px;
+}
+nav form input {
+    border: none !important;
+    background-color: var(--main-body) !important;
+    border-radius: 10px !important;
+}
+
+nav form input:focus {
+    box-shadow: 0 0 10px var(--main-body) !important;
+}
+nav .nav-icon {
+    color: var(--font-light);
+    font-size: 18px;
+}
+nav .nav-icon span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+nav .nav-icon span i:hover {
+    color: var(--main-color);
+}
+nav .nav-icon .shopping {
+    position: relative;
+}
+nav .nav-icon .shopping::after {
+    content: "3";
+    position: absolute;
+    right: -8px;
+    top: -2px;
+    /* width: 10px;
+    height: 10px; */
+    padding: 0px 6px;
+    font-family: "Montserrat";
+    box-shadow: 0 0 5px var(--main-color);
+    color: var(--main-body);
+    background-color: var(--main-color);
+    font-size: 9px;
+    border-radius: 50%;
+}
+nav .nav-icon a {
+    position: relative;
+    background-color: var(--main-color);
+    color: var(--main-body);
+    padding: 5px 25px 5px 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 0 8px var(--main-color);
+    font-weight: 600;
+}
+nav .nav-icon a:hover {
+    background-color: var(--font-dark);
+}
+nav .nav-icon a i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    left: 20px;
+}
+footer {
+    padding: 40px 0;
+    border-top: 0.25rem solid var(--bg-body);
+}
+footer .brand {
+    width: 100px;
+    display: flex;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-main);
+}
+.brand img{
+    width: 80px;
+}
+.dokan{
+    color: var(--light-text);
+    font-weight: 700;
+}
+
+footer .icons {
+    display: flex;
+    margin-top: 20px;
+}
+footer .icons span {
+    background-color: var(--bg-body);
+    color: var(--color-main);
+    font-size: 22px;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+footer .box-two {
+    padding: 0 15px;
+}
+
+footer .contact-us {
+    display: flex;
+}
+
+footer .contact-us p:last-child {
+    color: var(--color-main);
+}
+footer .contact-us i {
+    font-size: 58px;
+    color: var(--bg-body);
+    margin-right: 15px;
+}
+
+.copy-right {
+    border: 5px solid var(--bg-body);
+    padding: 20px;
+}
+.copy-right p {
+    color: var(--light-text);
+    text-align: center;
+    font-size: 18px;
+}
+.copy-right p span {
+    color: var(--color-main);
+}
