@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --color-main: #197bf5;
+    --color-secondary: #041e2d;
+    --bg-body: #efeff1;
+    --bold-text: #606060;
+    --light-text: #717171;
+    --shadow: rgba(0,0,0,0.15) 0px 2px 8px;
+}
+* {
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--bg-body);
+}

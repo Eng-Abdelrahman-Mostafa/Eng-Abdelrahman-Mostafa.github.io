@@ -43,7 +43,7 @@ a:link{
 
 
 .mod {
-    color: #e74c3c;
+    color: var(--color-main);
     font-size: 1.4em;
     font-weight: bold;
 }
