@@ -1,29 +1,36 @@
-* {
-    text-align: right;
-    justify-content: right;
-}
+
 
 .main{
   width: 100%;
   padding: 30px 50px;
+  text-align: right;
+  justify-content: right;
 }
 .up{
   font-weight: 700;
   margin-bottom: 30px;
+  text-align: right;
+  justify-content: right;
 }
 
 .rightsec{
+  text-align: right;
+  justify-content: right;
   width: 68%;
   height: 100%;
   float: right;
 }
 .leftsec{
+  text-align: right;
+  justify-content: right;
   width: 30%;
   height: 100%;
   float: left;
 }
 
 .profile{
+  text-align: right;
+  justify-content: right;
   box-shadow: var(--shadow);
   border-radius: 20px;
   background-color: white;
@@ -33,9 +40,13 @@
 }
 .set
 {
+  text-align: right;
+  justify-content: right;
   color: var(--bold-text);
 }
-input{
+.p_input{
+  text-align: right;
+  justify-content: right;
   border-style: hidden;
   width: 50%;
   padding: 2px;
@@ -43,9 +54,13 @@ input{
   cursor: pointer;
 }
 .fa-solid1{
+  text-align: right;
+  justify-content: right;
   color: var(--color-main);
 }
 .btn1 {
+  text-align: right;
+  justify-content: right;
   background-color: var(--color-main);
   border: none;
   color: white;
@@ -63,12 +78,16 @@ input{
   transition-property: transform;
 }
 .btn1:hover{
+  text-align: right;
+  justify-content: right;
   transform:  scale(1.02);
 
 }
 
 
 .card{
+  text-align: right;
+  justify-content: right;
   width: 100%;
   overflow: hidden;
   background-color: #fff;
@@ -79,6 +98,8 @@ input{
 }
 
 .card-img img{
+  text-align: right;
+  justify-content: right;
   width: 100%;
   height: 250px;
   border-top-left-radius: 10px;
@@ -87,6 +108,8 @@ input{
 }
 
 .profile-img img{
+  text-align: right;
+  justify-content: right;
   z-index: 1;
   width: 180px;
   height: 180px;
@@ -103,10 +126,14 @@ input{
   margin-bottom: 1.5rem;
 }
 .profile-img img:hover{
+  text-align: right;
+  justify-content: right;
   transform:  scale(1.1);
 }
 
 .card-content .uname{
+  text-align: right;
+  justify-content: right;
   font-size: 24px;
   text-align: center;
   color: var(--bold-text);
@@ -116,6 +143,8 @@ input{
 }
 
 .card-content .userid{
+  text-align: right;
+  justify-content: right;
   font-size: 16px;
   color: var(--light-text);
   font-weight: 500;
@@ -124,6 +153,8 @@ input{
 }
 
 .balance{
+  text-align: right;
+  justify-content: right;
   border: 2px solid white;
   border-radius: 30px;
   width: 85%;
@@ -139,12 +170,16 @@ input{
 }
 
 .space{
+  text-align: right;
+  justify-content: right;
   padding-left: 40px;
   font-style: var(--bold-text);
   font-weight: 500;
 }
 
 #bc3{
+  text-align: right;
+  justify-content: right;
   color:var(--bold-text);
   float: left;
   margin: auto;
@@ -155,10 +190,14 @@ input{
 }
 
 #bc3:hover{
+  text-align: right;
+  justify-content: right;
   transform:  scale(1.5);
 }
 
 #bc1{
+  text-align: right;
+  justify-content: right;
   float: right;
   color: var(--light-text);
   font-weight: 700;
@@ -169,6 +208,8 @@ input{
 
 #bc2
 {
+  text-align: right;
+  justify-content: right;
   color: var(--color-main);
   font-weight: 700;
   font-size: 1.2rem;
@@ -178,14 +219,20 @@ input{
 }
 
 #bcnum{
+  text-align: right;
+  justify-content: right;
   font-size: 1.5rem;
 }
 
 #egp{
+  text-align: right;
+  justify-content: right;
   font-size: 16px;
 }
 
 hr{
+  text-align: right;
+  justify-content: right;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
 }
