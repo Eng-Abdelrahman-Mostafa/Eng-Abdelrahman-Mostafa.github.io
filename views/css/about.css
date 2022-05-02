@@ -97,7 +97,7 @@ body{
   border-radius: 30px;
   background-color: black;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size:cover;
   box-shadow: var(--shadow);
 }
