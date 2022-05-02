@@ -1,27 +1,27 @@
  
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
  
-body{
+main{
   min-height: 100vh;
   width: 100%;
-  background:#ece9e9;
+  background:#fff;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.container{
+.container1{
   width: 85%;
   background: #fff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.container .content{
+.container1 .content{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.container .content .left-side{
+.container1 .content .left-side{
   width: 25%;
   height: 100%;
   display: flex;
@@ -65,7 +65,7 @@ body{
   color: #afafb6;
  
 }
-.container .content .left-side{
+.container1 .content .left-side{
   width: 30%;
   margin-left: 30px;
  
@@ -119,34 +119,34 @@ body{
 }
 
 @media (max-width: 950px) {
-  .container{
+  .container1{
     width: 90%;
     padding: 30px 40px 40px 35px ;
   }
-  .container .content .right-side{
+  .container1 .content .right-side{
    width: 75%;
    margin-left: 55px;
 }
 }
 @media (max-width: 820px) {
-  .container{
+  .container1{
     margin: 40px 0;
     height: 100%;
   }
-  .container .content{
+  .container1 .content{
     flex-direction: column-reverse;
   }
- .container .content .left-side{
+ .container1 .content .left-side{
    width: 100%;
    flex-direction: row;
    margin-top: 40px;
    justify-content: center;
    flex-wrap: wrap;
  }
- .container .content .left-side::before{
+ .container1 .content .left-side::before{
    display: none;
  }
- .container .content .right-side{
+ .container1 .content .right-side{
    width: 100%;
    margin-left: 0;
  }

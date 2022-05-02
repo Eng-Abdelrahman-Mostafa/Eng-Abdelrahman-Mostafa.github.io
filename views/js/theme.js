@@ -1,1 +1,1 @@
-const theme_key = 1;
+const theme_key = 2;
