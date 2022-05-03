@@ -1,382 +1,352 @@
-
+* {
+   transition: 0.3s all ease;
+}
 .main {
-    height: 70%;
-    width: 90%;
-    margin: 0 15px;
-    padding: 15px;
-    display: flex;
+   height: 70%;
+   width: 90%;
+   margin: 0 15px;
+   padding: 15px;
+   display: flex;
 }
 
-.edit{
-    width: 100%;
-    height: 30%;
-    display: flex;
+.edit {
+   width: 100%;
+   height: 30%;
+   display: flex;
 }
 
-.right{
-    width:50%;
-    position: relative;
-    padding-right: 40px;
+.right {
+   width: 50%;
+   position: relative;
+   padding-right: 40px;
 }
 
 .left {
-    width:50%;
-    margin-top: 60px;
+   width: 50%;
+   margin-top: 60px;
 }
 
-
-.red{
-    color: var(--color-main);
-    cursor: pointer;
+.red {
+   color: var(--color-main);
+   cursor: pointer;
 }
 
-.sale{
-    background-color: #bb6bd7;
-    border-radius: 10px;
-    padding: 5px 7px;
-    color: white;
+.sale {
+   background-color: #bb6bd7;
+   border-radius: 10px;
+   padding: 5px 7px;
+   color: white;
 }
 
-
-.pro-img{
-    margin-top: 60px;
-    border-radius:25px ;
-    box-shadow: var(--shadow);
-    width: 90%;
+.pro-img {
+   margin-top: 60px;
+   border-radius: 25px;
+   box-shadow: var(--shadow);
+   width: 90%;
 }
-
-
 
 .checked {
-    color: orange;
+   color: orange;
 }
 
-.c{
-    opacity: 0.3;
+.c {
+   opacity: 0.3;
 }
 
-
-.share{
-    margin-top: 2rem;
+.share {
+   margin-top: 2rem;
 }
 
-.one-word{
-    position:static;
-    margin-top:30px;
-    font-size: larger;
-
+.one-word {
+   position: static;
+   margin-top: 30px;
+   font-size: larger;
 }
 .share .fa {
-    padding: 10px;
-    margin-right: 10px;
-    width: 15px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 10px;
-
+   padding: 10px;
+   margin-right: 10px;
+   width: 15px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 10px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+   opacity: 0.7;
 }
-.share .icon{
-    background: var(--bg-body);
-    color:var(--color-main);
-    width: 40px;
-}
-
-
-
-
-.price{
-    color: var(--color-main);
-    margin-left: 8px;
-    font-size: 24px;
+.share .icon {
+   background: var(--bg-body);
+   color: var(--color-main);
+   width: 40px;
 }
 
-.dell{
-    color: gray;
-    margin-left: 8px;
-    font-size: 18px;
+.price {
+   color: var(--color-main);
+   margin-left: 8px;
+   font-size: 24px;
 }
 
-.discreption h2{
-    margin-bottom: 1.2rem;
-}
-.discreption p{
-    margin-top: 1rem;
-}
-
-.b0{
-    width: 100%;
-    margin-top: 2rem;
+.dell {
+   color: gray;
+   margin-left: 8px;
+   font-size: 18px;
 }
 
-.b1{
-
-    border-color: var(--color-main);
-    outline: 0;
-    background-color:white;
-    text-align: center;
-    cursor: pointer;
-    height: 50px;
-    font-size: x-large;
-    color: var(--color-main);
+.discreption h2 {
+   margin-bottom: 1.2rem;
 }
-.b1:hover{
-    background-color: var(--color-main);
-    color: white;
+.discreption p {
+   margin-top: 1rem;
 }
 
+.b0 {
+   width: 100%;
+   margin-top: 2rem;
+}
 
-
-
+.b1 {
+   border-color: var(--color-main);
+   outline: 0;
+   background-color: white;
+   text-align: center;
+   cursor: pointer;
+   height: 50px;
+   font-size: x-large;
+   color: var(--color-main);
+}
+.b1:hover {
+   background-color: var(--color-main);
+   color: white;
+}
 
 .b2:hover {
-    opacity: 0.7;
+   opacity: 0.7;
 }
 
-
-.buy1{
-    font-size: x-large;
-    color: white;
+.buy1 {
+   font-size: x-large;
+   color: white;
 }
 
-.b2{
-
-    border: none;
-    border-radius:15px;
-    outline: 0;
-    background-color: var(--color-main);
-    text-align: center;
-    cursor: pointer;
-    height: 50px;
-    font-size: 18px;
+.b2 {
+   border: none;
+   border-radius: 15px;
+   outline: 0;
+   background-color: var(--color-main);
+   text-align: center;
+   cursor: pointer;
+   height: 50px;
+   font-size: 18px;
 }
 
-
-
-.b{
-    border-color: var(--color-main);
-    border-style: solid;
-    padding: 12px;
-    background-color:white;
-    text-align: center;
-    cursor: pointer;
-    width: 80%;
-    border-radius: 15px;
-    font-size: 18px;
-
+.b {
+   border-color: var(--color-main);
+   border-style: solid;
+   padding: 12px;
+   background-color: white;
+   text-align: center;
+   cursor: pointer;
+   width: 80%;
+   border-radius: 15px;
+   font-size: 18px;
 }
-.b:hover{
-    opacity: .7;
-
+.b:hover {
+   opacity: 0.7;
 }
 
-
-
-.big-box{
-    display: flex;
-
-    padding-top:60px;
-
+.suii {
+   margin: 0;
+   padding-right: 50px;
+   font-size: 28px;
+   padding-top: 40px;
+   padding-right: 100px;
+   margin-right: 50px;
+}
+.news .container {
+   padding: 10px;
+}
+.news .image {
+   overflow: visible;
 }
 
+.news .swiper-button-next,
+.news .swiper-button-prev {
+   background-image: none;
 
-
-.suii{
-    margin:0 ;
-    padding-right: 50px;
-    font-size: 28px;
-    padding-top: 40px;
-    padding-right: 100px;
-    margin-right: 50px;
-
+   top: 35px;
+   bottom: 0;
+   border-radius: 50%;
+   margin: auto;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   font-size: 18px;
+   color: var(--color-main);
+   width: 30px;
+   height: 30px;
+   outline: 0;
+   background: #fff;
+   box-shadow: var(--shadow);
 }
 
-
-.box1{
-    border-radius: 20px;
-    box-shadow: var(--shadow);
-    max-width:200px;
-    background-color: var(--bg-body);
-    text-align: center;
-    margin-left: 25px;
-
+.news .container {
+   overflow: hidden;
 }
-.box2{
-
-
-
-    border-radius: 20px;
-    box-shadow: var(--shadow);
-    max-width:200px;
-    background-color: var(--bg-body);
-    text-align: center;
-    margin-left: 25px;
-
+.news .news-parent {
+   position: relative;
 }
-.box3{
-
-    border-radius: 20px;
-    box-shadow: var(--shadow);
-    max-width:200px;
-    background-color: var(--bg-body);
-    text-align: center;
-    margin-left: 25px;
-
+.news .swiper-slide {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 15px;
+   position: relative;
+   box-shadow: var(--shadow);
 }
+.news .swiper-slide::after {
+   content: "%30 خصم";
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   background-color: var(--main-color);
+   padding: 2px 8px;
+   border-radius: 10px;
+   color: #fff;
+   font-weight: 600;
+}
+.news .swiper-slide:first-child:after {
+   content: "%40 خصم";
+}
+.news .swiper-slide:last-child:after {
+   content: "%10 خصم";
+}
+.news .swiper-slide .first-ele {
+   padding: 20px 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: var(--font-light);
+   font-weight: 600;
 
-
-
-
-.box4{
-
-    border-radius: 20px;
-    box-shadow: var(--shadow);
-    max-width:200px;
-    background-color: var(--bg-body);
-    text-align: center;
-
-    margin-right: 150px;
-
-
-    margin-left: 25px;
-
+   width: 100%;
 }
 
-.box5{
-    margin-left: 25px;
-
-    border-radius: 20px;
-    box-shadow: var(--shadow);
-    max-width:200px;
-    background-color: var(--bg-body);
-    text-align: center;
-    padding-bottom: 10px;
-
+.news .swiper-slide .first-ele .image {
+   max-width: 140px;
+   max-height: 140px;
+   min-height: 140px;
+   overflow: hidden;
+   margin-bottom: 10px;
+}
+.news .swiper-slide .first-ele .content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+.news .swiper-slide .first-ele .content .price {
+   display: flex;
+   color: var(--main-color);
+   justify-content: center;
+   font-size: 22px;
+   font-weight: 700;
+}
+.news .swiper-slide .first-ele .content .price span {
+   margin: 0 3px;
 }
 
-#display{
-    font-size:1.5rem;
-    color: var(--color-main);
+.news .swiper-slide .first-ele .content p {
+   font-size: 14px;
+   font-weight: 700;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.news .swiper-slide .first-ele .content button {
+   border: 3px solid var(--color-main);
+   color: var(--color-main);
+   padding: 5px 40px;
+   border-radius: 30px;
+   cursor: pointer;
+   font-weight: 700;
+   background: transparent;
+}
+.news .swiper-button-next,
+.news .swiper-button-prev {
+   top: -30px;
+}
+.news .swiper-button-prev {
+   right: -10px;
+}
+.news .swiper-button-next {
+   left: -12px;
+}
+.news .swiper-button-disabled {
+   opacity: 0;
 }
 
+.news .swiper-slide:hover img {
+   transform: rotate(10deg);
+}
+.news .swiper-slide:hover .price span {
+   color: var(--bg-body) !important;
+}
+.news .swiper-slide {
+   transition: 0.3s all ease;
+}
+
+.news .swiper-slide:hover {
+   background-color: var(--color-secondary) !important;
+}
+
+.news .swiper-slide:hover p {
+   color: #fff;
+}
+.news button:hover {
+   color: #fff !important;
+   background-color: var(--color-main);
+}
+
+#display {
+   font-size: 1.5rem;
+   color: var(--color-main);
+}
 
 #counter div {
-    text-align: center;
+   text-align: center;
 }
 
-#plus{
-    margin-left: 15px;
+#plus {
+   margin-left: 15px;
 }
 .count {
-    width: 35px;
-    border-radius: 50%;
-    background-color:#fff;
-    box-shadow: rgba(0,0,0,0.15) 0px 2px 8px;
-    color: var(--color-main);
-    border-style:none ;
-    font-size: 24px;
+   width: 35px;
+   border-radius: 50%;
+   background-color: #fff;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+   color: var(--color-main);
+   border-style: none;
+   font-size: 24px;
 }
-.count li{
-    font-size: 20px;
+.count li {
+   font-size: 20px;
 }
-.count:hover{
-    background-color: var(--color-main);
-    color: white;
-    cursor: pointer;
+.count:hover {
+   background-color: var(--color-main);
+   color: white;
+   cursor: pointer;
 }
 .news-parent {
-    position: relative;
-}
-.swiper-slide {
-    width: 100%;
-    background-color: var(--bg-body);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    position: relative;
-    box-shadow: var(--shadow);
-}
-.swiper-slide::after {
-    content: "%30 خصم";
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: var(--color-main);
-    padding: 2px 8px;
-    border-radius: 10px;
-    color: #fff;
-    font-weight: 600;
-}
-.swiper-slide:first-child:after {
-    content: "%40 خصم";
-}
-.swiper-slide:last-child:after {
-    content: "%10 خصم";
-}
-.swiper-slide .first-ele {
-    padding: 20px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: var(--font-light);
-    font-weight: 600;
-
-    width: 100%;
-}
-
-.swiper-slide .first-ele .image {
-    max-width: 140px;
-    max-height: 140px;
-    min-height: 140px;
-    overflow: hidden;
-    margin-bottom: 10px;
-}
-.swiper-slide .first-ele .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-.swiper-slide .first-ele .content .price {
-    display: flex;
-    color: var(--color-main);
-    justify-content: center;
-    font-size: 22px;
-    font-weight: 700;
-}
-.swiper-slide .first-ele .content .price span {
-    margin: 0 3px;
-}
-
-.swiper-slide .first-ele .content p {
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.swiper-slide .first-ele .content button {
-    border: 3px solid var(--color-main);
-    color: var(--color-main);
-    padding: 5px 40px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-weight: 700;
-}
-.swiper-button-next,
-.swiper-button-prev {
-    top: -30px;
-}
-.swiper-button-prev {
-    right: -10px;
-}
-.swiper-button-next {
-    left: -12px;
-}
-.swiper-button-disabled {
-    opacity: 0;
+   position: relative;
 }
