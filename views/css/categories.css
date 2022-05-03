@@ -1,0 +1,54 @@
+
+
+.head2{
+    text-align: center;
+    margin: 20px;
+}
+main .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+main .item{
+    width: 45%;
+    background: var(--bg-body);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 30px;
+    box-shadow: var(--shadow);
+    padding: 20px;
+    text-align: right;
+    border-radius: 10px;
+
+}
+.lenk{
+    color:black;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+main .item:hover{
+    cursor: pointer;
+}
+
+
+main .fa {
+    padding: 10px;
+    margin-right: 10px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: var(--color-main);
+
+}
+
+
+main .fa:hover {
+    opacity: 0.7;
+}
+
+
+
