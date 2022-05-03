@@ -11,7 +11,9 @@
     background-color: #fff;
     top: 0;
 }
-
+a{
+    text-decoration: none;
+}
 .top-bar {
     background-color: var(--color-main);
     color: #fff;

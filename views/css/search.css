@@ -182,8 +182,6 @@ body {
     direction: rtl;
     margin: 30px;
 
-
-
 }
 
 .categories::-webkit-scrollbar-thumb {
@@ -253,7 +251,6 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    grid-template-areas: "bl bl blu blu", "s s g g";
     gap: 11px 10px;
     justify-content: center;
     margin-right: -54px;
