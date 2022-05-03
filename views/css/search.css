@@ -17,7 +17,7 @@ body {
 
 /*/////////////////////////////////// start header  //////////////////////////////////////////*/
 .main-header .image {
-    width: 1000px;
+    width: 95%;
     margin-top: 27px;
 }
 
@@ -60,47 +60,18 @@ body {
 
 }
 
-.products .product-1 .mobile {
+.mobile {
     text-align: center;
     margin: 20px;
     background-color: var(--bg-body);
     padding: 13px;
-    width: 199px;
-    height: 286px;
+    width: 80%;
+    height: 90%;
     border-radius: 30px;
 
 }
 
-.products .product-2 .mobile {
-    text-align: center;
-    margin: 20px;
-    background-color: var(--bg-body);
-    padding: 13px;
-    width: 199px;
-    height: 286px;
-    border-radius: 30px;
-}
 
-.products .product-3 .mobile {
-    text-align: center;
-    margin: 20px;
-    background-color: var(--bg-body);
-    padding: 13px;
-    width: 199px;
-    height: 286px;
-    border-radius: 30px;
-}
-
-.products .product-4 .mobile {
-    text-align: center;
-    margin: 20px;
-    background-color: var(--bg-body);
-    padding: 13px;
-    width: 199px;
-    height: 286px;
-    border-radius: 30px;
-
-}
 
 .main-content h1 {
 
@@ -155,8 +126,9 @@ body {
     height: 28.08px;
     text-align: center;
     background: white;
-    padding-top: 0px;
+    padding-top: 0;
     font-weight: 800;
+    margin-top: 1rem;
 }
 
 /*///////////////////////////////////// end container ///////////////////////////////////////*/
@@ -199,11 +171,11 @@ body {
     border-radius: 25px;
 }
 
- .main-aside .categories::-webkit-scrollbar {
+.categories::-webkit-scrollbar {
     width: 5px;
 }
 
- .main-aside .categories::-webkit-scrollbar-track {
+.categories::-webkit-scrollbar-track {
     background: white;
     border-radius: 5px;
     margin-block: 70px;
@@ -214,7 +186,7 @@ body {
 
 }
 
- .main-aside .categories::-webkit-scrollbar-thumb {
+.categories::-webkit-scrollbar-thumb {
     background-color: var(--color-main);
     border-radius: 5px;
 }
@@ -241,12 +213,12 @@ body {
 
 }
 
- .main-aside .filter {
+.filter {
 
 
     background-color: white;
     border-radius: 24px;
-    margin-right: auto;
+    margin-right: 145px;
     margin-left: auto;
     text-align: center;
     width: 264px;
