@@ -155,3 +155,12 @@ main{
 .item-close:hover{
    color: #e74c3c;
 }
+.itemCart{
+    margin-top: 2rem;
+}
+.goTo{
+    color: var(--color-main);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}

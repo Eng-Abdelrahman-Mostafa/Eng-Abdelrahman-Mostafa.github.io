@@ -20,7 +20,7 @@
 <main>
     <div class="cart">
         <div class="row">
-            <div class="col-8" >
+            <div class="col-8" style="margin-bottom: 2rem;">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -29,7 +29,7 @@
                             </div>
                         </div>
                         <!-- start -->
-                        <div id="item1" class="col-12">
+                        <div id="item1" class="itemCart col-12">
                             <div class="cart_item">
                                 <div class="row">
                                     <div class="col-4">
@@ -70,7 +70,7 @@
                         </div>
                         <!-- end -->
                         <!-- start -->
-                        <div id="item2" class="col-12">
+                        <div id="item2" class="itemCart col-12">
                             <div class="cart_item">
                                 <div class="row">
                                     <div class="col-4">
@@ -110,10 +110,54 @@
                             </div>
                         </div>
                         <!-- end -->
+                        <!-- start -->
+                        <div id="item3" class="itemCart col-12">
+                            <div class="cart_item">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="item-price">
+                                            22,897 ج.م
+                                        </p>
+                                        <button class="item-close" id="remove3"><i class="fa-solid fa-circle-xmark"></i></button>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p class="counter-num" id="counter3">1</p>
+
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <button class="counter-btn"style="margin-top: 35px" id="plus3"><i class="fa-solid fa-plus" style="color: var(--color-main)"></i></button>
+                                                    </div>
+                                                    <div class="col-12 ">
+                                                        <button class="counter-btn" id="minus3"><i class="fa-solid fa-minus" style="color: var(--color-main)"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <a class="item_title" href="#">موبايل ابل ايفون 13 مزود بتطبيق فيس تايم - سعة 256 جيجابايت</a>
+                                        <a class="item_code" href="#">MLNH3j/A</a>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="item-img text-center">
+                                            <img src="img/2.png" alt="" style="width: 60px">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <div class="col-12 itemCart">
+                            <a class="goTo" href="#"><i class="fa-solid fa-left-long"></i>اكمل التسوق</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-3" style="margin-bottom: 2rem;">
                 <div class="card">
                     <div class="cheader">
                         <div class="text-center">
@@ -148,6 +192,16 @@
 
                             <td class="text-center" id="itemsNum2">1</td>
                             <th scope="row" class="text-center">2</th>
+                        </tr>
+                        <!--end-->
+                        <!--start-->
+                        <tr id="trItem3">
+                            <td class="text-center priceItem" id="itemsPrice3" style="color: var(--color-main)">
+                                22897
+                            </td>
+
+                            <td class="text-center" id="itemsNum3">1</td>
+                            <th scope="row" class="text-center">3</th>
                         </tr>
                         <!--end-->
 
@@ -252,6 +306,40 @@
             updatePrices();
         });
         // End
+        // Start
+        const price3 = parseFloat($("#itemsPrice2").html());
+        $("#plus3").click(function (){
+            var maxItems=8;
+            var counterNum = parseInt($("#counter3").html());
+            if(counterNum != maxItems){
+                counterNum++;
+                document.querySelector("#counter3").innerHTML=counterNum;
+                document.querySelector("#itemsNum3").innerHTML=counterNum;
+                document.querySelector("#itemsPrice3").innerHTML=counterNum*price1;
+                updatePrices();
+            }else{
+                alert("لا يوجد عدد اخر من هذا المنتج في المخزن")
+            }
+        });
+        $("#minus3").click(function (){
+            var counterNum = parseInt($("#counter3").html());
+            if(counterNum-1 != 0){
+                counterNum--;
+                document.querySelector("#counter3").innerHTML=counterNum;
+                document.querySelector("#itemsNum3").innerHTML=counterNum;
+                document.querySelector("#itemsPrice3").innerHTML=counterNum*price1;
+                updatePrices();
+            }else{
+                alert("لا يمكن اختيار عدد من المنتج اقل من واحد")
+            }
+        });
+        $("#remove3").click(function (){
+            $("#item3").remove();
+            $("#trItem3").remove();
+            updatePrices();
+        });
+        // End
+
     });
 
 </script>
