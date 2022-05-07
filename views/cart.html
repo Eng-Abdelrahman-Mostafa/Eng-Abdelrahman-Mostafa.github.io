@@ -1,32 +1,23 @@
-<!--
-
-1.الصفحة دي مثال على الصفحات هتاخدها كوبي و هتغير في الmain و هتربط ملف الcss يتاعك و هتغير الtitle حسب اسم الصفحة
-2. الالوان عبارة عن متغيرات في ملف الcss استخدم المتغيرات اللي في ال style.min زي ما هي
-
--->
 <!doctype html>
-<html>
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- حط ملف الcss بتاعك تحت الstyle.min  -->
-    <script src="https://kit.fontawesome.com/04ca326e53.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/theme.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/cart.css">
-    <!-- غير اسم الصفحة اللي في الtitle  -->
-    <title>Cart</title>
+    <script src="https://kit.fontawesome.com/f2178052c7.js" crossorigin="anonymous"></script>
+    <script src="js/themeStyle.js"></script>
+    <link rel="stylesheet" href="css/responsive.css" />
     <link rel="icon" href="img/logo-main.png"/>
+    <title>سلة المشتريات</title>
+
 </head>
 <body>
-<header>
-    <!-- مكان الهيدر "سيبه فاضي دلوقتي" -->
-</header>
+<div class="header" style="direction: rtl;"></div>
 <main>
-
-
     <div class="cart">
         <div class="row">
             <div class="col-8" >
@@ -38,19 +29,81 @@
                             </div>
                         </div>
                         <!-- start -->
-                        <div class="col-12">
+                        <div id="item1" class="col-12">
                             <div class="cart_item">
                                 <div class="row">
-
-                                    <div class="col-6"></div>
-                                    <div class="col-6">
+                                    <div class="col-4">
+                                        <p class="item-price">
+                                            22,897 ج.م
+                                        </p>
+                                        <button class="item-close" id="remove1"><i class="fa-solid fa-circle-xmark"></i></button>
+                                    </div>
+                                    <div class="col-3">
                                         <div class="row">
-                                            <div class="col-8"></div>
-                                            <div class="col-4">
-                                                <div class="item-img text-center">
-                                                    <img src="img/2.png" alt="" style="width: 60px">
+                                            <div class="col-6">
+                                                <p class="counter-num" id="counter1">1</p>
+
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <button class="counter-btn"style="margin-top: 35px" id="plus1"><i class="fa-solid fa-plus" style="color: var(--color-main)"></i></button>
+                                                    </div>
+                                                    <div class="col-12 ">
+                                                        <button class="counter-btn" id="minus1"><i class="fa-solid fa-minus" style="color: var(--color-main)"></i></button>
+                                                    </div>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <a class="item_title" href="#">موبايل ابل ايفون 13 مزود بتطبيق فيس تايم - سعة 256 جيجابايت</a>
+                                        <a class="item_code" href="#">MLNH3j/A</a>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="item-img text-center">
+                                            <img src="img/2.png" alt="" style="width: 60px">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- start -->
+                        <div id="item2" class="col-12">
+                            <div class="cart_item">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="item-price">
+                                            22,897 ج.م
+                                        </p>
+                                        <button class="item-close" id="remove2"><i class="fa-solid fa-circle-xmark"></i></button>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p class="counter-num" id="counter2">1</p>
+
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <button class="counter-btn"style="margin-top: 35px" id="plus2"><i class="fa-solid fa-plus" style="color: var(--color-main)"></i></button>
+                                                    </div>
+                                                    <div class="col-12 ">
+                                                        <button class="counter-btn" id="minus2"><i class="fa-solid fa-minus" style="color: var(--color-main)"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <a class="item_title" href="#">موبايل ابل ايفون 13 مزود بتطبيق فيس تايم - سعة 256 جيجابايت</a>
+                                        <a class="item_code" href="#">MLNH3j/A</a>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="item-img text-center">
+                                            <img src="img/2.png" alt="" style="width: 60px">
                                         </div>
                                     </div>
                                 </div>
@@ -77,54 +130,33 @@
                         </thead>
                         <tbody>
 
-
-                        <tr>
-                            <td class="text-center" style="color: var(--color-main)">
-                                <span>22.987</span>
+                        <!--start-->
+                        <tr id="trItem1">
+                            <td class="text-center priceItem" id="itemsPrice1" style="color: var(--color-main)">
+                                22897
                             </td>
 
-                            <td class="text-center">1</td>
+                            <td class="text-center" id="itemsNum1">1</td>
                             <th scope="row" class="text-center">1</th>
                         </tr>
-                        <tr>
-                            <td class="text-center" style="color: var(--color-main)">
-                                <span>22.987</span>
+                        <!--end-->
+                        <!--start-->
+                        <tr id="trItem2">
+                            <td class="text-center priceItem" id="itemsPrice2" style="color: var(--color-main)">
+                                22897
                             </td>
 
-                            <td class="text-center">1</td>
-                            <th scope="row" class="text-center">1</th>
+                            <td class="text-center" id="itemsNum2">1</td>
+                            <th scope="row" class="text-center">2</th>
                         </tr>
-                        <tr>
-                            <td class="text-center" style="color: var(--color-main)">
-                                <span>22.987</span>
-                            </td>
-
-                            <td class="text-center">1</td>
-                            <th scope="row" class="text-center">1</th>
-                        </tr>
-                        <tr>
-                            <td class="text-center" style="color: var(--color-main)">
-                                <span>22.987</span>
-                            </td>
-
-                            <td class="text-center">1</td>
-                            <th scope="row" class="text-center">1</th>
-                        </tr>
-                        <tr>
-                            <td class="text-center" style="color: var(--color-main)">
-                                <span>22.987</span>
-                            </td>
-
-                            <td class="text-center">1</td>
-                            <th scope="row" class="text-center">1</th>
-                        </tr>
+                        <!--end-->
 
                         </tbody>
 
                     </table>
                     <p style="padding: 0 10px 0 10px">
                         <span class="exp"><a href="#" id="a1"><i class="fa-solid fa-circle-info"></i></a>مصاريف الشحن</span>
-                        <span class="price">60.564</span>
+                        <span class="price" id="price1">0</span>
 
                     </p>
                     <div class="text-center">
@@ -136,10 +168,92 @@
     </div>
 
 </main>
-<footer>
-    <!-- مكان الفوتر "سيبه فاضي دلوقتي" -->
-</footer>
+<div class="footer" style="direction: rtl;"></div>
+<script src="js/footer.js"></script>
+<script src="js/header.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script>
+
+    function updatePrices() {
+        var prices=0;
+        var allPrices= document.getElementsByClassName("priceItem");
+        for(i=0;i< allPrices.length;i++){
+            prices+= parseFloat(allPrices[i].innerHTML);
+        }
+        document.querySelector("#price1").innerHTML=prices;
+    }
+    // Start
+    $(document).ready(function (){
+        updatePrices()
+        // Start
+        const price1 = parseFloat($("#itemsPrice1").html());
+        $("#plus1").click(function (){
+            var maxItems=8;
+            var counterNum = parseInt($("#counter1").html());
+            if(counterNum != maxItems){
+                counterNum++;
+                document.querySelector("#counter1").innerHTML=counterNum;
+                document.querySelector("#itemsNum1").innerHTML=counterNum;
+                document.querySelector("#itemsPrice1").innerHTML=counterNum*price1;
+                updatePrices();
+            }else{
+                alert("لا يوجد عدد اخر من هذا المنتج في المخزن")
+            }
+        });
+        $("#minus1").click(function (){
+            var counterNum = parseInt($("#counter1").html());
+            if(counterNum-1 != 0){
+                counterNum--;
+                document.querySelector("#counter1").innerHTML=counterNum;
+                document.querySelector("#itemsNum1").innerHTML=counterNum;
+                document.querySelector("#itemsPrice1").innerHTML=counterNum*price1;
+                updatePrices();
+            }else{
+                alert("لا يمكن اختيار عدد من المنتج اقل من واحد")
+            }
+        });
+        $("#remove1").click(function (){
+            $("#item1").remove();
+            $("#trItem1").remove();
+            updatePrices();
+        });
+        // End
+        // Start
+        const price2 = parseFloat($("#itemsPrice2").html());
+        $("#plus2").click(function (){
+            var maxItems=8;
+            var counterNum = parseInt($("#counter2").html());
+            if(counterNum != maxItems){
+                counterNum++;
+                document.querySelector("#counter2").innerHTML=counterNum;
+                document.querySelector("#itemsNum2").innerHTML=counterNum;
+                document.querySelector("#itemsPrice2").innerHTML=counterNum*price1;
+                updatePrices();
+            }else{
+                alert("لا يوجد عدد اخر من هذا المنتج في المخزن")
+            }
+        });
+        $("#minus2").click(function (){
+            var counterNum = parseInt($("#counter2").html());
+            if(counterNum-1 != 0){
+                counterNum--;
+                document.querySelector("#counter2").innerHTML=counterNum;
+                document.querySelector("#itemsNum2").innerHTML=counterNum;
+                document.querySelector("#itemsPrice2").innerHTML=counterNum*price1;
+                updatePrices();
+            }else{
+                alert("لا يمكن اختيار عدد من المنتج اقل من واحد")
+            }
+        });
+        $("#remove2").click(function (){
+            $("#item2").remove();
+            $("#trItem2").remove();
+            updatePrices();
+        });
+        // End
+    });
+
+</script>
 </body>
 </html>
