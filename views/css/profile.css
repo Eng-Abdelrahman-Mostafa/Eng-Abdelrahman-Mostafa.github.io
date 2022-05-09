@@ -78,10 +78,7 @@
   transition-property: transform;
 }
 .btn1:hover{
-  text-align: right;
-  justify-content: right;
   transform:  scale(1.02);
-
 }
 
 
