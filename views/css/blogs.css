@@ -216,20 +216,6 @@ a:link{
 }
 
 
-.search-button {
-    width: 36px;
-    height: 39px;
-    background-color:#71717100;
-    color: #e74c3c;
-    margin-bottom:5px ;
-    position: relative;
-    top: 45px ;
-    right: 10px;
-    border-radius: 15px;
-    border-color:#71717100 ;
-    font-size: 1.3em;
-    font-weight: 700;
-}
 
 
 .hover-button{
