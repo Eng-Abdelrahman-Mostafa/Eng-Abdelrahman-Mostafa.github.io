@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لوحة التحكم</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <script src="https://kit.fontawesome.com/f2178052c7.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+  <link rel="stylesheet" href="css/users3.css">
+
+
+
+</head>
+<body>
+<div class="main">
+
+  <header class="header">
+    <div class="header__container">
+      <div class="header__toggle">
+        <i class='bx bx-menu' id="header-toggle"></i>
+      </div>
+
+
+      <a href="#" class="header__logo">دكان.كوم</a>
+
+      <div class="header__search" style="text-align: right">
+        <i class='bx bx-search header__icon'></i>
+        <input type="search" placeholder="بحث" class="header__input">
+
+      </div>
+      <img src="img/perfil.png" alt="" class="header__img">
+
+
+    </div>
+
+  </header>
+  <style>
+    a, span{
+      font-family: Cairo, sans-serif;
+    }
+
+
+  </style>
+  <div class="nav" id="navbar">
+    <nav class="nav__container">
+      <div>
+        <a href="#" class="nav__link nav__logo">
+          <i class='bx bxs-disc nav__icon' ></i>
+          <span class="nav__logo-name">دكان</span>
+        </a>
+
+        <div class="nav__list">
+          <div class="nav__items" style="text-align: center;">
+            <h3 class="nav__subtitle" style="font-family: Cairo, sans-serif;">المستخدمين</h3>
+
+            <a href="#" class="nav__link active" style="text-align: center;">
+
+              <i class='bx bx-home nav__icon' ></i>
+              <span class="nav__name" style="font-family: Cairo, sans-serif;">الرئيسية</span>
+            </a>
+
+            <div class="nav__dropdown">
+              <a href="#" class="nav__link">
+                <i class='bx bx-user nav__icon' ></i>
+                <span class="nav__name">المستخدمين</span>
+                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+              </a>
+
+              <div class="nav__dropdown-collapse">
+                <div class="nav__dropdown-content">
+                  <a href="#" class="nav__dropdown-item">قائمة المستخدمين</a>
+                  <a href="#" class="nav__dropdown-item">اضافة مستخدم جديد</a>
+
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="nav__link">
+              <i class='bx bx-message-rounded nav__icon' ></i>
+              <span class="nav__name">الرسائل</span>
+            </a>
+          </div>
+
+          <div class="nav__items">
+            <h3 class="nav__subtitle">المنتجات</h3>
+
+            <div class="nav__dropdown">
+              <a href="#" class="nav__link">
+                <i class='bx bx-bell nav__icon' ></i>
+                <span class="nav__name">الاشعارات</span>
+                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+              </a>
+
+              <div class="nav__dropdown-collapse">
+                <div class="nav__dropdown-content">
+                  <a href="#" class="nav__dropdown-item">المستخدمين</a>
+                  <a href="#" class="nav__dropdown-item">البائعين</a>
+                  <a href="#" class="nav__dropdown-item">المخازن</a>
+                  <a href="#" class="nav__dropdown-item">الحسابات</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="nav__dropdown">
+              <a href="#" class="nav__link">
+                <i class='fas fa-book-open nav__icon' ></i>
+                <span class="nav__name">التقارير</span>
+                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+              </a>
+
+              <div class="nav__dropdown-collapse">
+                <div class="nav__dropdown-content">
+                  <a href="#" class="nav__dropdown-item">دفتر اليومية</a>
+                  <a href="#" class="nav__dropdown-item">دفتر الاستاذ</a>
+
+                </div>
+              </div>
+
+            </div>
+
+
+            <a href="#" class="nav__link">
+              <i class='bx bx-bookmark nav__icon' ></i>
+              <span class="nav__name">محفوظات</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="nav__link nav__logout">
+        <i class='bx bx-log-out nav__icon' ></i>
+        <span class="nav__name">تسجيل الخروج</span>
+      </a>
+    </nav>
+  </div>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-lg-11 col-md-12"></div>
+      <div class="col-lg-11 col-md-12">
+        <div class="card pr_card" style="padding-right: 10px;padding-left: 10px;">
+          <p class="table_title">قائمة المستخدمين</p>
+
+          <meta charset="utf-8"><div class="modal fade" id="staticBackdrop0" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+
+            <div class="modal-content">
+              <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body" style="text-align: right;">
+                <span>هل انت متأكد من أنك تريد حذف الطالب بشكل نهائي؟</span>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">رجوع</button>
+                <a href="../../controller/users/suadmin/del_student?del=1&amp;stu_id=12" role="button" class="btn btn-danger">حذف</a>
+              </div>
+            </div>
+          </div>
+        </div><div class="modal fade" id="exampleModal0" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <form action="../../controller/users/suadmin/update_stu_code.php?stu_id=12" method="post" id="update_code"></form>
+            <div class="modal-content">
+              <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label" style="float: right;">:الكود</label>
+                  <input type="text" class="form-control" id="recipient-name" name="update_code_txt" value="123451">
+                </div>
+                <div id="update_code_res"></div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">تراجع</button>
+                <button type="submit" class="btn btn-outline-success" name="update_code">تحديث الكود</button>
+              </div>
+            </div>
+
+          </div>
+        </div><div class="modal fade" id="exampleModal20" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <form action="../../controller/users/suadmin/update_student?stu_id=12&amp;stu_email=asf1e11@gmail.com" method="post" id="update_stu0"></form>
+            <div class="modal-content">
+              <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label" style="float: right;">:الاسم بالكامل</label>
+                  <input type="text" class="form-control" id="recipient-name" name="full_name_txt" value="oasjodfjie12">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label" style="float: right;">:البريد</label>
+                  <input type="email" class="form-control" name="email_txt" value="asf1e11@gmail.com">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label" style="float: right;">:الرقم الشخصي</label>
+                  <input type="text" class="form-control" name="phone_txt" value="01097887410">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label" style="float: right;">:كلمة مرور جديدة</label>
+                  <input type="text" class="form-control" name="password_txt" value="">
+                </div>
+                <div id="update_stu_res0"></div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">تراجع</button>
+                <button type="submit" class="btn btn-outline-success" name="update_stu">تحديث الكود</button>
+              </div>
+            </div>
+
+          </div>
+        </div><table class="table table-hover">
+          <thead>
+          <tr>
+
+            <th scope="col" style="color: #b27f7c;">حذف</th>
+            <th scope="col" style="color: #b27f7c;">الرصيد</th>
+            <th scope="col" style="color: #b27f7c;">البلد</th>
+            <th scope="col" style="color: #b27f7c;">الكود</th>
+            <th scope="col" style="color: #b27f7c;">الاسم</th>
+            <th scope="col" style="color: #b27f7c;">#</th>
+          </tr>
+          </thead>
+          <tbody>
+
+
+          <tr>
+            <td><button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop0">حذف</button></td>
+            <td>3000</td>
+            <td>مصر</td>
+            <td><a role="button" data-toggle="modal" data-target="#exampleModal0" data-whatever="123451">123451</a></td>
+            <td><a role="button" data-toggle="modal" data-target="#exampleModal20" data-whatever="oasjodfjie12">oasjodfjie12</a></td>
+            <td>1</td>
+          </tr>
+
+
+
+
+
+          </tbody>
+        </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
+<script src="js/sidebar.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+</body>
+
+</html>
