@@ -5,15 +5,18 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>error</title>
 </head>
-<body>
+<body dir="rtl">
 <script src="views/js/theme.js"></script>
+<div id="errorMsg"></div>
 <script>
     if (theme_key ==1){
         window.location.assign('views/home1.html');
     }else if(theme_key==2){
         window.location.assign('views/home2.html');
+    }else {
+        document.querySelector('#errorMsg').innerHTML="<h1>خطأ في تحديد الثيم</h1>";
     }
 </script>
 </body>
