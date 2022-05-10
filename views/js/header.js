@@ -35,7 +35,7 @@ if(theme_key==2){
         "    </div>\n" +
         "    <nav class=\"navbar navbar-expand-lg navbar-light nav1\">\n" +
         "        <div class=\"container-fluid nav-mar\">\n" +
-        "            <a class=\"navbar-brand\" href=\"#\"\n" +
+        "            <a class=\"navbar-brand\" href=\"home2.html\"\n" +
         "            ><img src=\"img/logo2.png\" alt=\"\" />\n" +
         "                <span>دكان</span></a\n" +
         "            >\n" +
@@ -45,7 +45,7 @@ if(theme_key==2){
         "            >\n" +
         "                <ul class=\"navbar-nav ml-auto mb-2 mb-lg-0\">\n" +
         "                    <li class=\"nav-item\">\n" +
-        "                        <a class=\"nav-link active\" aria-current=\"page\" href=\"#\"\n" +
+        "                        <a class=\"nav-link active\" aria-current=\"page\" href=\"categories.html\"\n" +
         "                        >جميع الفئات</a\n" +
         "                        >\n" +
         "                    </li>\n" +
@@ -66,8 +66,8 @@ if(theme_key==2){
         "                     <span class=\"shopping\"\n" +
         "                     ><i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i>\n" +
         "                     </span>\n" +
-        "                    <a href=\"#\">\n" +
-        "                        حسابي\n" +
+        "                    <a href=\"login.html\">\n" +
+        "                        تسجيل\n" +
         "                        <i class=\"fa fa-user-circle\" aria-hidden=\"true\"></i>\n" +
         "                    </a>\n" +
         "                </div>\n" +
@@ -86,8 +86,8 @@ if(theme_key==2){
         "                  <span class=\"shopping\"\n" +
         "                  ><i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i>\n" +
         "                  </span>\n" +
-        "                <a href=\"#\">\n" +
-        "                    حسابي\n" +
+        "                <a href=\"login.html\">\n" +
+        "                    تسجيل\n" +
         "                    <i class=\"fa fa-user-circle\" aria-hidden=\"true\"></i>\n" +
         "                </a>\n" +
         "            </div>\n" +
@@ -173,8 +173,8 @@ if(theme_key==2){
         "                <span class=\"shopping\"\n" +
         "                ><i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i>\n" +
         "                  </span>\n" +
-        "                <a href=\"#\">\n" +
-        "                    حسابي\n" +
+        "                <a href=\"login.html\">\n" +
+        "                    تسجيل\n" +
         "                    <i class=\"fa fa-user-circle\" aria-hidden=\"true\"></i>\n" +
         "                </a>\n" +
         "            </div>\n" +
@@ -184,7 +184,7 @@ if(theme_key==2){
         "            >\n" +
         "                <ul class=\"navbar-nav ml-auto mb-2 mb-lg-0\">\n" +
         "                    <li class=\"nav-item\">\n" +
-        "                        <a class=\"nav-link active\" aria-current=\"page\" href=\"#\"\n" +
+        "                        <a class=\"nav-link active\" aria-current=\"page\" href=\"categories.html\"\n" +
         "                        >جميع الفئات</a\n" +
         "                        >\n" +
         "                    </li>\n" +
@@ -220,8 +220,8 @@ if(theme_key==2){
         "                    <span class=\"shopping\"\n" +
         "                    ><i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i>\n" +
         "                     </span>\n" +
-        "                    <a href=\"#\">\n" +
-        "                        حسابي\n" +
+        "                    <a href=\"login.html\">\n" +
+        "                        تسجيل\n" +
         "                        <i class=\"fa fa-user-circle\" aria-hidden=\"true\"></i>\n" +
         "                    </a>\n" +
         "                </div>\n" +
